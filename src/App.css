@@ -1,0 +1,23 @@
+div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  height: 600px;
+}
+
+section > h1 {
+  color: white;
+
+  font-size: 3rem;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+img {
+  width: 33.33%;
+  height: 50%;
+  border: 1px solid black;
+
+  object-fit: cover;
+}
